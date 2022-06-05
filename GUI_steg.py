@@ -13,7 +13,12 @@ extract = [False]
 
 wind = tk.Tk()
 wind.title("EMBED OR EXTRACT MESSAGE FROM IMAGE")
-greeting = tk.Label( text='\nHello! You have two options here...\n\n1. Embed a secret message within the image \nOR\n 2. Extract the most recent secret message within image\n')
+
+greeting_text1 = '\nHello! You have two options here...\n\n1. Embed a secret message within the image \nOR\n2.'
+greeting_text2 = ' Extract the most recent secret message within image\n'
+greeting_text_final = greeting_text1 + greeting_text2
+
+greeting = tk.Label( text=greeting_text_final )
 greeting.pack()
 wind.geometry('500x400')
 wind['bg'] = '#26dddd'
