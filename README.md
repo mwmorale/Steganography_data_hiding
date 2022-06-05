@@ -10,4 +10,4 @@ In general, steganography can be described as "the technique of hiding secret da
 file or message in order to avoid detection; the secret data is then extracted at its destination. The use of steganography 
 can be combined with encryption as an extra step for hiding or protecting data".
 
-This tool should be used locally and is equiped with full GUI capability. The tool can be operated by simply running the "RUN_ME" file.
+This tool should be used locally and is equipped with full GUI capability. The tool can be operated by simply running the "RUN_ME" file.
